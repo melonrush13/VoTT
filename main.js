@@ -194,6 +194,16 @@ function createWindow () {
       ]
     },
     {
+      label: 'Mel',
+      submenu: [
+        {
+          label: 'Refresh App',
+          accelerator: 'CmdOrCtrl+Space',
+          click () { mainWindow.reload(); }
+        }
+      ]
+    },
+    {
       label: 'Debug',
       submenu: [
         {
